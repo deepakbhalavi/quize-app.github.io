@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="config-container">
+        <h2 class="config-tittle">Quiz Configration</h2>
+        <div class="config-option">
+            <h4 class="option-tittle">Select Category</h4>
+            <div class="category-options">
+                <button class="category-option active">Programming</button>
+                <button class="category-option">Geography</button>
+                <button class="category-option">Mathematics</button>
+                <button class="category-option">Cricket</button>
+            </div>
+        </div>
+        <div class="config-option">
+            <h4 class="option-tittle">No.Of Qustions</h4>
+            <div class="qustion-options">
+                <button class="qustion-option">5</button>
+                <button class="qustion-option active">10</button>
+                <button class="qustion-option">15</button>
+                <button class="qustion-option">20</button>
+                <button class="qustion-option">25</button>
+            </div>
+        </div>
+        <button class="start-quiz-btn">Start Quize</button>
+    </div>
+    <div class="quize-container">
+        <header class="quize-header">
+            <h2 class="quize-tittle">Quize Application</h2>
+            <div class="quize-timer">
+                <span class="material-symbols-rounded">
+                    timer
+                    </span>
+                <p class="time-duration"></p>
+            </div>
+        </header>
+        <div class="quize-content">
+            <h1 class="qustion-text"></h1>
+            <ul class="ans-option">
+               
+            </ul>
+        </div>
+        <div class="quize-fotter">
+            <p class="qustion-status"></p>
+            <button class="next-qustion">Next <i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+    </div>
+    <div class="result-container">
+        <img src="pngwing.png" class="result-img">
+        <h2 class="result-tittle">Quiz Completed !</h2>
+        <p class="result-message"></p>
+        <button class="try-again">Try Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
